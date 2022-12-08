@@ -4,16 +4,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>小饰的博客</title>
+  <style>
+    html {
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      margin: 36px auto;
+      padding: 24px;
+      background-color: #e9f8ef;
+      border: 2px solid #addfc1;
+      border-radius: 6px;
+      max-width: 680px;
+    }
+    @media only screen and (max-width: 600px) {
+      body {
+        margin: 0;
+        border: none;
+      }
+    }
+    h1 {
+      border: 3px dotted #29aa6b;
+      padding: 4px;
+      background-color: #f2f2f2;
+      color: #29aa6b;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    .cute {
+      font-size: 21px;
+      background-color: #29aa6b;
+      color: #f2f2f2;
+      border-radius: 10px;
+      padding: 0 6px;
+      margin-left: 4px;
+    }
+    a {
+      text-decoration: none;
+    }
+    button {
+      display: block;
+      margin: 12px 0;
+      background-color: #29aa6b;
+      color: #fff;
+      border: none;
+      padding: 4px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button span {
+      color: #fff;
+    }
+  </style>
+  <title>小饰界</title>
 </head>
 <body>
-  <h1>小饰的博客</h1>
-  
-  <img style="width: 300px" src="https://64.media.tumblr.com/77fa1a15f4aa7ae6a04c260444cbd80b/cf61170c9bb6e03d-da/s1280x1920/962976ebb4a8087a30652d07cb55359c0f0ec83d.png" alt="Natsujikei Miyazaki" />
+  <h1>小饰<span class="cute">界</span></h1>
   
   <div>
-    <small>2022/11/22</small>
-    <p>今晚有风。</p>
+    <a href="https://xiaoshijie.bearblog.dev/" target="_blank">
+      <button>
+        <span>&#10150;</span> 博客
+      </button>
+    </a>
+    <a href="./screenings.html">
+      <button>
+        <span>&#10150;</span> 不靠谱放映
+      </button>
+    </a>
   </div>
 </body>
 </html>
