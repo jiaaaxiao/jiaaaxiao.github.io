@@ -16,47 +16,42 @@
     body {
       margin: 36px auto;
       padding: 24px;
-      background-color: #e9f8ef;
-      border: 2px solid #addfc1;
-      border-radius: 6px;
+      background-color: #f5f5f5;
+      border: 2px solid #000;
       max-width: 680px;
     }
     @media only screen and (max-width: 600px) {
       body {
         margin: 0;
+        padding: 12px;
         border: none;
       }
     }
     h1 {
-      border: 3px dotted #29aa6b;
       padding: 4px;
-      background-color: #f2f2f2;
-      color: #29aa6b;
+      color: #000;
       border-radius: 8px;
       display: inline-flex;
       align-items: center;
       margin-bottom: 18px;
     }
-    .cute {
-      font-size: 21px;
-      background-color: #29aa6b;
-      color: #f2f2f2;
-      border-radius: 10px;
-      padding: 0 6px;
-      margin-left: 4px;
-    }
     a {
+      text-decoration: none;
+      color: #fff;
+    }
+    a:visited {
+      color: #fff;
       text-decoration: none;
     }
     button {
       display: block;
       margin: 12px 0;
-      background-color: #29aa6b;
+      background-color: #000;
       color: #fff;
       border: none;
-      padding: 4px 16px;
-      border-radius: 6px;
+      padding: 8px 16px;
       cursor: pointer;
+      line-height: 20px;
     }
     button span {
       color: #fff;
@@ -65,19 +60,34 @@
   <title>小饰界</title>
 </head>
 <body>
-  <h1>小饰<span class="cute">界</span></h1>
+  <h1>小饰界</h1>
   
   <div>
-    <a href="https://xiaoshijie.bearblog.dev/" target="_blank">
-      <button>
+    <button>
+      <a href="https://xiaoshijie.bearblog.dev" target="_blank">
         <span>&#10150;</span> 博客
-      </button>
-    </a>
-    <a href="./screenings.html">
-      <button>
+      </a>
+    </button>
+    <button>
+      <a href="https://www.instagram.com/xiaoshi0708" target="_blank">
+        <span>&#10150;</span> Instagram
+      </a>
+    </button>
+    <button>
+      <a href="https://space.bilibili.com/478592165" target="_blank">
+        <span>&#10150;</span> bilibili
+      </a>
+    </button>
+    <button>
+      <a href="https://www.xiaoyuzhoufm.com/podcast/63499d9529cb1d0e63ef15df" target="_blank">
+        <span>&#10150;</span> 小宇宙
+      </a>
+    </button>
+    <button>
+      <a href="./screenings.html">
         <span>&#10150;</span> 不靠谱放映
-      </button>
-    </a>
+      </a>
+    </button>
   </div>
 </body>
 </html>
